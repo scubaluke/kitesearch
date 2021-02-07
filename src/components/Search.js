@@ -17,6 +17,7 @@ export default function Search(props) {
                 <label htmlFor="search">Search for kite gear</label>
                 <input 
                     onChange={(e) => setTerm(e.target.value)} 
+                    
                     value={term}
                     type="text" 
                     name="" 
